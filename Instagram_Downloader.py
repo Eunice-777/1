@@ -26,8 +26,7 @@ CHROME_DRIVER_PATH = PATH
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
-driver = webdriver.Chrome(
-    executable_path=CHROME_DRIVER_PATH, options=options)
+driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, options=options)
 
 By.CLASS_NAME
 def downloadImage(url, filename):
